@@ -1,0 +1,51 @@
+.container-1{
+	display: flex;
+	background-color: #f1f1f1;
+	justify-content: center;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+}
+
+.container-2{
+	background-color: #f1f1f1;
+	justify-content: center;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.container-1 div, .container-2 div{
+	border:1px #cc solid;
+	padding: 60px;
+}
+
+.box-1{
+  width: 35%; /* Example width    "Gill Sans", sans-serif;*/
+  height: 35%; /* Example height */
+  border-radius: 50%; /* Makes the div a circle */
+  
+}
+
+.box-2{
+	flex: 1;
+}
+
+.box-3{
+	text-align: center;
+	padding: 20px;
+}
+
+.box-1 img {
+  width: 100%; /* Makes the image fill the circle's width */
+  height: 100%; /* Makes the image fill the circle's height */
+  margin-left: 70px; /* Move left the image circle */
+}
+
+.hello{
+	font-size: 80px; /* Makes the h1 text bigger */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.center{
+	text-align: center;
+}
